@@ -41,6 +41,11 @@ body {
     background: linear-gradient(to bottom, #4B25CF, #4734EE);
 }
 
+.your-result{
+    font-size: 17px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
 .score{
     font-size: 48px;
     font-weight: bold;
@@ -51,7 +56,7 @@ body {
     color: rgba(255, 255, 255, 0.6);
 }
 
-.Great-Subheading{
+.great-heading{
     font-size: 20px;
     font-weight: bold;
     margin-top: 20px;
@@ -59,7 +64,7 @@ body {
 }
 
 .score-breakdown{
-    font-size: 14px;
+    font-size: 17px;
     color: rgba(255, 255, 255, 0.6);
 }
 
@@ -109,4 +114,25 @@ button:hover{
     transform: translateY(-2px);
     transition: ease-in-out 0.3s;
     opacity: 0.9;
+}
+
+@media (max-width: 600px){
+    .card{
+        flex-direction: column;
+        width: 90%;
+        overflow: visible;
+    }
+    .result{
+        padding: 20px;
+        border-radius: 20px;
+
+    }
+    .summary{
+        padding: 20px;
+    }
+    .summary-heading{
+        font-size: 14px;
+    }
+
+
 }
