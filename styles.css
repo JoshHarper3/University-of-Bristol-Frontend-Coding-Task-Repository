@@ -71,3 +71,25 @@ body {
     border-radius: 10px;
     background: #FFFFFF;
 }
+
+.icon-and-text{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.reaction{
+    color: #E9828F;
+}
+
+.memory{
+    color: #DDB357;
+}
+
+.verbal{
+    color: #269A77;
+}
+
+.visual{
+    color: #373AB4;
+}
