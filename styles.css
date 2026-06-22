@@ -116,10 +116,18 @@ button:hover{
     opacity: 0.9;
 }
 
+.attribution{
+    position: fixed;
+    bottom: 150px; 
+    width: 100%;
+    text-align: center;
+}
+
 @media (max-width: 600px){
     .card{
         flex-direction: column;
-        width: 90%;
+        width: 100%;
+        max-width: 240px;
         overflow: visible;
     }
     .result{
@@ -132,6 +140,9 @@ button:hover{
     }
     .summary-heading{
         font-size: 14px;
+    }
+    .attribution{
+        bottom: 90px;
     }
 
 
