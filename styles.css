@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #ECF2FF;
+}
+
+.card {
+ display: flex;
+ width: 600px;
+ border-radius: 20px;
+ overflow: hidden;
+ background: #FFFFFF;
+ box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.result {
+    flex: 1;
+    padding: 30px;
+    text-align: center;
+    color: #FFFFFF;
+    background: linear-gradient(to bottom, #6441FD, #352FEB);
+}
+
+.summary {
+    flex: 1;
+    padding: 30px;
+}
+
+.result-circle{
+    width: 120px;
+    height: 120px;
+    margin: 20px auto;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: linear-gradient(to bottom, #4B25CF, #4734EE);
+}
+
+.score{
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.percentage{
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.Great-Subheading{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.score-breakdown{
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.reaction-row, .memory-row, .verbal-row, .visual-row{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background: #FFFFFF;
+}
